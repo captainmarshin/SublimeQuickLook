@@ -1,4 +1,4 @@
-# Quick Look
+# Sublime Quick Look
 Plugin for Sublime Text to show macOS Quick Look for selected file. 
 
 This is edited version of [original plugin](https://github.com/wallysalami/QuickLook). 
@@ -14,7 +14,7 @@ Plugin run Apple Script, which opens Finder with selected file and show Quick Lo
 - [x] Update project structure and docs
 
 ## Installation
-1. Download zip archive with plugin from Releases page
+1. Download zip archive with plugin from [Releases](https://github.com/captainmarshin/SublimeQuickLook/releases) page
 2. Extract QuickLook folder to ~/Library/Application Support/Sublime Text/Packages/
 
 ## Usage

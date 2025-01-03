@@ -1,13 +1,21 @@
-#Quick Look
-Sublime Text 2 plugin for display the Quick Look of a file. Works only on OS X.
+# Quick Look
+Plugin for Sublime Text to show macOS Quick Look for selected file. 
 
-##Installation
-1. Download [the zip file](https://github.com/wallysalami/QuickLook/zipball/master)
-2. unzip it and rename it to "QuickLook" or something
-3. Move it to ~/Library/Application Support/Sublime Text 2/Packages/
+This is edited version of [original plugin](https://github.com/wallysalami/QuickLook). 
+Plugin uses `Apple Script` instead of `qlmanage` to show Quick Look. Apple Script was written by **ok-kompjutor** ([founded here](https://www.reddit.com/r/osx/comments/bkwnr3/comment/lzuy3hg/)) and updated to use in this plugin. 
 
-Alternativaly, if you have the Sublime Package Control installed, you can search for Quick Look
+## How it work
+Plugin opens Finder with selected file and show Quick Look preview instead of launching `qlmanage` app to show Quick Look preview
 
-##Usage
+## Changelog 
+[x] Replace `qlmanage` with Apple Script
+[x] Change plugin shortcut (⌘ + Shift + /)
+[x] Update project structure and docs
 
-The command can be found in a context menu when right-clicking in a file at the side bar or in the editor. You can also type "Quick Look" in the Command Palette or use the shortcut Command+Shift+Space.
+## Installation
+1. Download zip archive with plugin from Releases page
+2. Extract QuickLook folder to ~/Library/Application Support/Sublime Text/Packages/
+
+## Usage
+Quick Look command appears in context menu (right-click on file in Folder View or in Editor).
+Alternatively, Use `⌘ + Shift + /` key shortcut to run plugin.

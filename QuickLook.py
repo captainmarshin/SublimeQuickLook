@@ -1,13 +1,12 @@
 import sublime, sublime_plugin, os, subprocess
 
-
-
 class QuicklookCommand(sublime_plugin.WindowCommand):
 	def run(self, paths=[]):
-
+		plugin_dir = os.path.dirname(os.path.realpath(__file__))
+		applescript_path = os.path.join(plugin_dir, 'quicklook.applescript')
+		os.chmod(applescript_path, 0o755)
 		path = self.get_path(paths)
-		arg = ['qlmanage', '-p', path]
-		subprocess.Popen(arg)
+		subprocess.Popen([applescript_path, path])
 
 	def get_path(self, paths):
 		if paths:

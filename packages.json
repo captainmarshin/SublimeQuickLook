@@ -1,20 +1,27 @@
 {
-	"schema_version": "1.2",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Quick Look",
-			"description": "Display the Quick Look of a file on Sublime Text 2 (running on Mac OS X).",
-			"author": "Jan Krueger Siqueira",
-			"homepage": "https://github.com/wallysalami/QuickLook",
-			"last_modified": "2013-01-03 10:28:00",
-			"platforms": {
-				"osx": [
-					{
-						"version": "1.0.3",
-						"url": "https://nodeload.github.com/wallysalami/QuickLook/zip/v1.0.3"
-					}
-				]
-			}
+			"description": "Plugin for Sublime Text to show macOS Quick Look for selected file. ",
+			"authors": [
+				"Jan Krueger Siqueira",
+				"ok-kompjutor",
+				"Igor Marshin"
+			],
+			"homepage": "https://github.com/captainmarshin/SublimeQuickLook",
+			"issues": "https://github.com/captainmarshin/SublimeQuickLook/issues",
+			"readme": "https://raw.githubusercontent.com/captainmarshin/SublimeQuickLook/master/README.md",
+			"previous_names": [],
+			"labels": ["preview", "quicklook", "macos"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx"],
+					"version": "1.0",
+					"url": ""
+				}
+			]
 		}
 	]
 }
